@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dragon Paving</title>
-    <meta name="description" content="Commercial paving & site services — asphalt paving, milling, concrete, sealcoating & maintenance, and excavation & grading." />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dragon Paving | Home</title>
+  <meta name="description" content="Dragon Paving — Professional Asphalt & Concrete Services" />
+  <style>
+    html,body{margin:0;background:#050609}
+    .wrap{display:flex;justify-content:center}
+    .mock{position:relative;width:100%;max-width:1200px}
+    img{width:100%;display:block}
+    .hotspot{position:absolute}
+    /* Debug hotspots by uncommenting below */
+    /* .hotspot{outline:2px solid rgba(255,215,0,.6);background:rgba(255,215,0,.15);} */
+    .hs-about{left:59%;top:2%;width:8%;height:5%}
+    .hs-services{left:68%;top:2%;width:10%;height:5%}
+    .hs-reviews{left:79%;top:2%;width:9%;height:5%}
+    .hs-contact{left:89%;top:2%;width:8%;height:5%}
+    .hs-quote{left:90%;top:1.6%;width:9%;height:5.6%}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mock">
+      <!-- PLACE YOUR HOMEPAGE IMAGE HERE -->
+      <!-- Rename your image to: home.png -->
+      <img src="home.png" alt="Dragon Paving Homepage" />
+      <a class="hotspot hs-about" href="#"></a>
+      <a class="hotspot hs-services" href="#"></a>
+      <a class="hotspot hs-reviews" href="#"></a>
+      <a class="hotspot hs-contact" href="#"></a>
+      <a class="hotspot hs-quote" href="#"></a>
+    </div>
+  </div>
+</body>
 </html>
